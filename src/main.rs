@@ -7,7 +7,7 @@ pub mod routes;
 async fn main() -> Result<()> {
     let mut app = tide::new();
 
-    // server public directory for assets
+    // serve public directory for assets
     app.at("/public").serve_dir("./public/")?;
 
     // force go to admin page
