@@ -4,6 +4,8 @@ Easy AdminLTE integration with **Rust** and [tide-rs](https://github.com/http-rs
 
 # Setup Project
 
+download [AdminLTE v3](https://adminlte.io/themes/v3/) and copy the necessary files to public folder
+
 `cargo build` to install dependencies
 
 `cargo run` to run server
@@ -30,7 +32,7 @@ Launch browser on http://127.0.0.1:1987
 
 # Note
 
-Url of href and src should add "/public/***" on *.html template, for example, do like that:
+Url of href and src should add "/public/_xyz_" on *.html template, for example, do like this:
 
 `<link rel="stylesheet" href="/public/admin-lte/plugins/fontawesome-free/css/all.min.css">`
 
