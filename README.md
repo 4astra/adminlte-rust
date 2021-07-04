@@ -8,6 +8,8 @@ Easy AdminLTE integration with **Rust** and **tide-rs** web framework
 
 `cargo run` to run server
 
+Launch browser on http://127.0.0.1:1987
+
 # Structure
 
 ![Structure App](./screenshots/structure.png)
