@@ -18,7 +18,7 @@ Launch browser on http://127.0.0.1:1987
 
 **public** store public assets: css, javascript, etc
 
-**public/admin-lte** theme of admin-lte. More information [AdminLTE](https://adminlte.io/themes/v3/)
+**public/admin-lte** theme of admin-lte. More information [AdminLTE v3](https://adminlte.io/themes/v3/)
 
 **models** define entities or models that use
 
