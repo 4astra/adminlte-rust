@@ -20,9 +20,9 @@ Launch browser on http://127.0.0.1:1987
 
 **public/admin-lte** theme of admin-lte. More information [AdminLTE v3](https://adminlte.io/themes/v3/)
 
-**models** define entities or models that use
+**src/models** define entities or models that use
 
-**routes** where to manage routing
+**src/routes** where to manage routing
 
 **templates** define the html pages. This project uses [askama-rs](https://github.com/djc/askama) as an engine for rendering templates
 
