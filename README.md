@@ -10,6 +10,8 @@ Easy AdminLTE integration with **Rust** and **tide-rs** web framework
 
 Launch browser on http://127.0.0.1:1987
 
+![AdminLTE html](./screenshots/result.png)
+
 # Structure
 
 ![Structure App](./screenshots/structure.png)
