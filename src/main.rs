@@ -1,4 +1,4 @@
-use tide::{Redirect, Result};
+use tide::{Redirect, Request, Result};
 
 pub mod models;
 pub mod routes;
@@ -14,8 +14,9 @@ async fn main() -> Result<()> {
     app.at("/").get(Redirect::new("/admin"));
 
     app.at("/admin").get(routes::admin);
-    
-    
+
+    app.at("/hello")
+        .get(|_req: Request<()>| async move { Ok("Hello world!") });
     // listen
     println!("Server listen on 127.0.0.1:1987");
     app.listen("127.0.0.1:1987").await?;
