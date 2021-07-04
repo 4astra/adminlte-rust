@@ -1,6 +1,6 @@
 # AdminLTE - Rust
 
-Easy AdminLTE integration with **Rust** and **tide-rs** web framework
+Easy AdminLTE integration with **Rust** and [tide-rs](https://github.com/http-rs/tide) web framework
 
 # Setup Project
 
@@ -30,5 +30,11 @@ Launch browser on http://127.0.0.1:1987
 
 # Note
 
-Rust web application framework use [tide-rs](https://github.com/http-rs/tide) for rapid development
+Url of href and src should add "/public/***" on *.html template, for example, do like that:
+
+`<link rel="stylesheet" href="/public/admin-lte/plugins/fontawesome-free/css/all.min.css">`
+
+`<link rel="stylesheet" href="/public/admin-lte/dist/css/adminlte.min.css">`
+
+`<script src="/public/admin-lte/dist/js/adminlte.min.js"></script>`
 
